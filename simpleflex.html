@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        main {
+            display: flex;
+            gap: 10px;
+            outline: 1px solid blue;
+            padding: 10px;
+        }
+        main > * {
+            outline: 1px solid red;
+        } 
+        aside {
+
+            flex: 1;
+
+        } 
+
+        section {
+
+            flex: 5;
+
+        }
+
+        aside ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            /* tablet width */
+        @media screen and (width < 900px)  {
+            
+            body {
+
+            }
+
+            main {
+
+                flex-direction: column;
+            } 
+
+
+        }
+        /* end tablet */
+
+    </style>
+
+</head>
+<body>
+    
+   <main>
+
+        <aside>
+            <ul>
+                <li>one 1</li>
+                <li>one 2</li>
+                <li>one 3</li>
+                <li>one 4</li>
+                <li>one 5</li>
+            </ul>
+
+
+        </aside>
+        <section>this is a section sjdlfj sldkf ljk fghfghfgfghfgh </section>
+
+   </main>
+
+</body>
+</html>
